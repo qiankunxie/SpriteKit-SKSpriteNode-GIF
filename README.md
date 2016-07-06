@@ -14,7 +14,7 @@ Change value to `YES`
 
 ## Usage
 
-# Animate Local GIF
+### Animate Local GIF
 Import the `SKSpriteNode+GIF.swift` in your project and do the following:
 ```swift
 // create a empty SKSprtieNode and set the size, postion and zPosition 
@@ -27,7 +27,7 @@ addChild(localgif)
 // currently each texture is animating for 0.1 sec
 localgif.animateWithLocalGIF(fileNamed: "shooterMcGavin")
 ```
-# Animate Remote GIF with url
+### Animate Remote GIF with url
 ```swift
 // transfer stirng to NSURL object
 let nsurl = NSURL(string: "http://d38cjvupbxhsu.cloudfront.net/jackblack.gif")
