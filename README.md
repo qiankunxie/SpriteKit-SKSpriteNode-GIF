@@ -3,6 +3,12 @@
 A small `SKSpreiteNode` extension with gif support.
 
 ## Usage
+
+0. Modify info.plist
+  add key `App Transport Security Settings`
+  add a child of `App Transport Security Settings` called `Allow Arbitrary Loads`
+  change value to `YES`
+
 1. Animate Local GIF
 Import the `SKSpriteNode+GIF.swift` in your project and do the following:
 ```swift
