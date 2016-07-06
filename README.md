@@ -2,17 +2,19 @@
 
 A small `SKSpreiteNode` extension with gif support.
 
+## Prepare
+
+Modify info.plist for remote downloading and animating
+
+Add key `App Transport Security Settings`
+
+Add a child of `App Transport Security Settings` called `Allow Arbitrary Loads`
+  
+Change value to `YES`
+
 ## Usage
 
-0. Modify info.plist for remote downloading and animating
-
-   Add key `App Transport Security Settings`
-
-   Add a child of `App Transport Security Settings` called `Allow Arbitrary Loads`
-  
-   Change value to `YES`
-
-1. Animate Local GIF
+# Animate Local GIF
 Import the `SKSpriteNode+GIF.swift` in your project and do the following:
 ```swift
 // create a empty SKSprtieNode and set the size, postion and zPosition 
@@ -25,7 +27,7 @@ addChild(localgif)
 // currently each texture is animating for 0.1 sec
 localgif.animateWithLocalGIF(fileNamed: "shooterMcGavin")
 ```
-2. Animate Remote GIF with url
+# Animate Remote GIF with url
 ```swift
 // transfer stirng to NSURL object
 let nsurl = NSURL(string: "http://d38cjvupbxhsu.cloudfront.net/jackblack.gif")
