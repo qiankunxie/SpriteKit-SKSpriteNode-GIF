@@ -13,9 +13,9 @@ Add a child of `App Transport Security Settings` called `Allow Arbitrary Loads`
 Change value to `YES`
 
 ## Usage
+Import the `SKSpriteNode+GIF.swift` in your project and do the following:
 
 ### Animate Local GIF
-Import the `SKSpriteNode+GIF.swift` in your project and do the following:
 ```swift
 // create a empty SKSprtieNode and set the size, postion and zPosition 
 let localgif = SKSpriteNode()
