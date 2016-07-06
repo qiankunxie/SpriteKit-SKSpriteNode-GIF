@@ -35,9 +35,8 @@ gifnode.animateWithRemoteGIF(nsurl!)
 # Inspiration
 This project is heavily inspired by [SwiftGif](https://github.com/bahlo/SwiftGif/blob/master/README.md).:thumbsup:
 
-## License
-This repository is licensed under the MIT license, more under
-[LICENSE](LICENSE).
+# License
+This repository is licensed under the MIT license.
 
 
 
